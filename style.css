@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+container {
+    display: flex;
+}
+
+@media (min-width: 400px) {
+.row {
+    border: 1px black solid;
+    }
+}
+
+.col {
+    border: 1px black solid;
+}
