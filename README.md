@@ -29,4 +29,10 @@ BOOTSTRAP GRID DEV LOG:
         - Bootstrap Grid System Tutorial | Bootstrap 5
     - worked on own project to make columns work finally
     - continued to work with sizing within different devices
+
+9/28/23 12:30pm - 3:00pm
+    - continued to work on bootstrap components like the buttons and navbar
+    - looked up different button themes on bootstrap document
+    - changed some of the looks for the page including removing "navigation" header and changing "inbox" and "message" to h5 element
+    - experimenting on different column sizes to get what i wanted in the first place
     - 
