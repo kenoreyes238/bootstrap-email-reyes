@@ -23,4 +23,10 @@ BOOTSTRAP GRID DEV LOG:
     - looked at bootstrap document to learn and research on what to do w/ grid
     - struggling and tired
     
-9/27/23 
+9/27/23 4:00pm - 
+    - looked up a yt video to better understand bootstrap
+        - https://youtu.be/Wqu-d_b3K-0?si=WMIaBoXbkjMDUbVS
+        - Bootstrap Grid System Tutorial | Bootstrap 5
+    - worked on own project to make columns work finally
+    - continued to work with sizing within different devices
+    - 
