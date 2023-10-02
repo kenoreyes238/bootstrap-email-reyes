@@ -1,9 +1,14 @@
 .container {
     width: 100%;
+    display: flex;
+}
+
+.row {
+    height: 45%;
 }
 
 .col {
-    border: 1px black solid;
+    border: 1px #e5e5e5 solid;
 }
 
 .navbar {
@@ -11,8 +16,16 @@
     color: white;
 }
 
+.navbar::h2 {
+    margin-left: 50px;
+}
+
 .inbox {
-    border-top: 1px black solid; 
+    border-top: 1px #e5e5e5 solid;
+}
+
+.inbox:hover {
+    background-color: #dee2ff;
 }
 
 .inbox-col {
@@ -23,5 +36,10 @@
 }
 
 #msg-header {
-    border-top: 1px black solid; 
+    border-top: 1px #e5e5e5 solid;
+}
+
+.compose {
+    display: flex;
+    align-content: end;
 }

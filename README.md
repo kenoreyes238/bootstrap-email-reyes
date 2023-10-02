@@ -35,4 +35,8 @@ BOOTSTRAP GRID DEV LOG:
     - looked up different button themes on bootstrap document
     - changed some of the looks for the page including removing "navigation" header and changing "inbox" and "message" to h5 element
     - experimenting on different column sizes to get what i wanted in the first place
-    - 
+10/1/23 7:10pm - 
+    - studied with Talia and RJ online for about half an hour
+    - added a compose and reply area for more functionality
+    - fixed a bit on column sizing
+    - changed inbox area to be a table instead
