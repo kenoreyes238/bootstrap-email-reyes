@@ -39,5 +39,4 @@ BOOTSTRAP GRID DEV LOG:
     - studied with Talia and RJ online for about half an hour
     - added a compose and reply area for more functionality
     - fixed a bit on column sizing
-10/2/23 4:00pm - 4:30pm
-    - fixed a bit on composing and reply areas for their spacing and looks in general
+    - changed inbox area to be a table instead
