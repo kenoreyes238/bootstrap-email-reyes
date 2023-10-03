@@ -39,7 +39,7 @@
     border-top: 1px #e5e5e5 solid;
 }
 
-.compose {
+.txt-areas {
     display: flex;
-    align-content: end;
+    flex-direction: column;
 }

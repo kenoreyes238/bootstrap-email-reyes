@@ -18,6 +18,36 @@
             <div class="col-lg-100vw navbar">
                 <div class="nav-line">
                     <h2>Message Center</h2>
+                    <!--start of compose area-->
+                    <button class="btn btn-outline-light compose" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        compose
+                    </button>
+
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">New Message</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="txt-areas">
+                                <label for="Recipient">
+                                    <input id="Recipient" name="Recipient" type="Text" placeholder="To: ">
+                                </label>
+                                <label for="Subject">
+                                    <input id="Subject" name="Subject" type="Text" placeholder="Subject" required>
+                                </label>
+                                <label for="bio">
+                                    <textarea id="Msg-area" name="Msg-area" rows="3" cols="30"
+                                        placeholder="Message"></textarea>
+                                </label>
+                                <button type="button" class="btn btn-outline-dark">send</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of compose area-->
                     <button type="button" class="btn btn-outline-light">inbox</button>
                     <button type="button" class="btn btn-outline-light">sent</button>
                     <button type="button" class="btn btn-outline-light">draft</button>
@@ -35,35 +65,6 @@
         <div class="row">
             <div class="col-md-3 min-vw-30 inbox-col">
                 <h5>Inbox</h5>
-                <!--start of compose area-->
-                <button class="btn btn-outline-dark compose" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                    compose
-                </button>
-
-                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-                    aria-labelledby="offcanvasExampleLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">New Message</h5>
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <div>
-                            <label for="Recipient">To:
-                                <input id="Recipient" name="Recipient" type="Text" required>
-                            </label>
-                            <label for="Subject">Subject:
-                                <input id="Subject" name="Subject" type="Text" required>
-                            </label>
-                            <label for="bio">Message:
-                                <textarea id="Msg-area" name="Msg-area" rows="3" cols="30"></textarea>
-                            </label>
-                            <button type="button" class="btn btn-outline-dark">send</button>
-                        </div>
-                    </div>
-                </div>
-                <!--end of compose area-->
                 <div class="inbox">
                     <p><strong>TikTok</strong> <br> Suggested videos for kxno</p>
                 </div>
@@ -92,7 +93,7 @@
                     <p><strong>REI</strong><br> Just for Members: </p>
                 </div>
             </div>
-            <!--Messgae area-->
+            <!--Message area-->
             <div class="col-8 position-sticky">
                 <div>
                     <h4 id="msg-header">Touchstone Climbing</h4>
@@ -111,15 +112,15 @@
                                 aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body small">
-                            <h5>xxxxx@gmail.com</h5>
-                            <div class="reply-msg-area">
-                                <label for="Subject">Subject:
-                                    <input id="Subject" name="Subject" type="Text" required>
-                                </label>
-                                <label for="bio">Message:
-                                    <textarea id="Msg-area" name="Msg-area" rows="3" cols="30"></textarea>
-                                </label>
-                                <button type="button" class="btn btn-outline-dark">send</button>
+                            <div class="txt-areas">
+                                <h5>touchstoneClimbing@gmail.com | Pipeworks </h5>
+                                <div class="reply-msg-area">
+                                    <label for="bio">
+                                        <textarea id="Msg-area" name="Msg-area" rows="3" cols="30"
+                                            placeholder="Message"></textarea>
+                                    </label>
+                                    <button type="button" class="btn btn-outline-dark">send</button>
+                                </div>
                             </div>
                         </div>
                     </div>
