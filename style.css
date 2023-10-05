@@ -1,6 +1,5 @@
 .container {
     width: 100%;
-    display: flex;
 }
 
 .row {
@@ -16,12 +15,22 @@
     color: white;
 }
 
-.navbar::h2 {
-    margin-left: 50px;
+form {
+    margin-right: 20px;
+    display: flex;
+}
+
+h2 {
+    margin-left: 20px;
 }
 
 .inbox {
     border-top: 1px #e5e5e5 solid;
+    margin-left: 10px;
+}
+
+h5 {
+    margin-left: 10px;
 }
 
 .inbox:hover {
